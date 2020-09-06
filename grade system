@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+float marks;
+printf("Enter the marks of the student\n");
+scanf("%f",&marks);
+
+if (marks>100)
+{
+printf("invalid marks\n");
+}
+else if (marks>=85)
+{
+printf("student has secured 'GRADE A',Excellent\n");
+}
+else if (marks>=70)
+{
+printf("student has secured 'GRADE B',Very Good\n");
+}
+else if (marks>=55)
+{
+printf("student has secured 'GRADE C',Good\n");
+}
+else if (marks>=40)
+{
+printf("student has secured 'GRADE D',Average\n");
+}
+else
+{
+printf("student has secured 'GRADE F',Poor\n");
+}
+}
